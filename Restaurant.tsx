@@ -49,7 +49,7 @@ const Restaurant: React.FC = () => {
     }
   };
 
-  
+
 
   return (
     <>
@@ -77,8 +77,8 @@ const Restaurant: React.FC = () => {
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }
         data={data}
-        keyExtractor={(item: any) => item?.id}
-        renderItem = {({ item }: any) => (
+        keyExtractor={(item: any) => item.id}
+        renderItem={({ item }: any) => (
           <View style={{ flexDirection: 'row', backgroundColor: 'skyblue', margin: 3, padding: 5, justifyContent: 'space-between' }}>
             <Text
               style={styles.cardText}
