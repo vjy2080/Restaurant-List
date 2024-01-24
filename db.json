@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "restaurant": "Pizza place"
+    },
+    {
+      "id": 2,
+      "restaurant": "Sam's Pizza"
+    }
+  ]
+}
